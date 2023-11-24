@@ -1,0 +1,30 @@
+.mensaje{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.construccion{
+    font-size:larger;
+    margin-top: 1rem;
+}
+
+.imgInicio{
+    margin-top: 2.5rem;
+    width: 50%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px){
+    .imgInicio{
+        width: 75%;
+    }
+}
+
+
+

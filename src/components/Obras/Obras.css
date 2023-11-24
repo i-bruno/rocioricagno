@@ -1,0 +1,53 @@
+.contenedor {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenedorPiel{
+    justify-content: center;
+}
+
+.contenedorDevenir{
+    justify-content: center;
+}
+
+.imgObras {
+    width: 150px;
+    margin: 0.5rem;
+}
+
+.imgArana{
+    margin: 0.5rem;
+    width: 20rem;
+    object-fit: cover;
+}
+
+.imgObras:hover{
+    cursor:pointer;
+}
+
+@media only screen and (min-width: 768px){
+    .contenedor{
+        width: 40rem;
+    }
+
+    .imgArana{
+        width: 30rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .contenedor{
+        width: 60rem;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .contenedor{
+        width: 70rem;
+    }
+}

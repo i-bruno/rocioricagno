@@ -1,0 +1,14 @@
+.linkStyle{
+    text-decoration: none;
+    color: #000000a6;
+}
+
+.dropdown-item:active{
+    background-color: rgb(212, 212, 212) !important;
+    color:black !important;
+}
+
+.dropdown-item.active{
+    background-color: rgb(212, 212, 212) !important;
+    color: black !important;
+}
