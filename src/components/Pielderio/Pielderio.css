@@ -27,7 +27,7 @@
 }
 
 .textoDetalle {
-    margin-bottom: 0.1rem;
+    margin-top: 0.1rem !important;
     margin-left: 1rem;
 }
 
@@ -35,4 +35,10 @@
     font-weight: bold;
     margin-top: 0.5rem;
     margin-left: 1rem;
+    margin-bottom: 0.1rem !important;
+}
+
+.textoObra {
+    margin-top: 1.5rem;
+    width: 90vw;
 }
