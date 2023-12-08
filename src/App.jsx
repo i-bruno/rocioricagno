@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Construccion from './components/Construccion/Construccion';
+import Inicio from './components/Inicio/Inicio';
 import Navbar from './components/Navbar/Navbar';
 //Obras
 import Proyectoarana from './components/Proyectoarana/Proyectoarana';
@@ -20,6 +20,7 @@ import 'react-photo-view/dist/react-photo-view.css';
 
 
 
+
 function App() {
 
   return (
@@ -27,7 +28,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Construccion />} />
+          <Route path="/" element={<Inicio />} />
           <Route path="/bio" element={<Bio />} />
 
           <Route path="/proyectoarana" element={<Proyectoarana />} />

@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Construccion.css"
+import "./Inicio.css"
 import Redes from '../Redes/Redes'
 
-const Construccion = () => {
+const Inicio = () => {
     return (
         <div className='mensaje'>
             <div className='grid-gallery'>
@@ -25,8 +25,12 @@ const Construccion = () => {
                     <img src="./img/obras/08_devastacion/devastacionCompleta.jpg" alt="" className='grid-gallery__image' />
                 </div>
             </div>
+            <Redes />
+            <h6>
+                rocioaricagno@gmail.com
+            </h6>
         </div>
     )
 }
 
-export default Construccion
+export default Inicio
