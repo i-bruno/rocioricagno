@@ -12,7 +12,7 @@ const Devenirterritorio = () => {
                     Devenir territorio
                 </h6>
                 <p className='textoDetalle'>
-                    Lorem ipsum dolor sit amet.
+                    Bordado sobre bolsas de infusiones
                 </p>
                 <p className='textoDetalle'>
                     2020
