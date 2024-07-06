@@ -60,6 +60,15 @@ const Bio = () => {
                     </h4>
                         <ul>
                             <li>
+                                2024 Piel de Río en el Foro Abierto 2024, Universidad Nacional del Litoral, Santa Fe.
+                            </li>
+                            <li>
+                                2024 Museo de Arte Contemporáneo Conrad Meier, Villa La Angostura 
+                            </li>
+                            <li>
+                                2023 Museo Casa Sarmiento, Tigre, Buenos Aires.
+                            </li>
+                            <li>
                                 2023 Noche de los Museos, Colegio N°6 Manuel Belgrano
                             </li>
                             <li>
