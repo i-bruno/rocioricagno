@@ -56,12 +56,12 @@ export const Navbar = () => {
                                                 Proyecto Arana
                                             </NavLink>
                                         </li>
-                                        <li onClick={closeMenu}>
+                                        {/* <li onClick={closeMenu}>
                                             <NavLink to={`/silencio`} className="dropdown-item w-auto">
                                                 Hacer hablar al silencio
                                             </NavLink>
 
-                                        </li>
+                                        </li> */}
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/capasabrigo`} className="dropdown-item w-auto">
                                                 Capas de abrigo
