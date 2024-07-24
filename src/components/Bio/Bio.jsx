@@ -9,9 +9,9 @@ const Bio = () => {
                     <p>
                         Nace en el año 1990 en San Fernando, provincia de Buenos Aires. Crece en Tigre y se reconoce tanto parte de su ciudad como de sus islas. Es artista visual y docente de la Ciudad de Buenos Aires. Sus prácticas artísticas se vinculan con el delta del río Paraná, donde utiliza diversos lenguajes y acciones para generar nuevas miradas en torno al territorio. Recibe en 2015 el título de Profesora de Artes Visuales otorgado por la Escuela de Artes Visuales Antonio Berni.
                     </p>
-                    <p>
+                    {/* <p>
                         En 2016 se traslada a la Capital Federal y cursa la especialización en Educación Sexual Integral en el Inst. del Profesorado Dr. Joaquín V. González. Desde su rol docente colabora en la muestra itinerante “No Fue un Juego” en el Museo del Holocausto, Bs. As. 2018/2019. Lleva a cabo junto con el equipo educativo del Ex CCD,TyE “Club Atlético” la muestra “Gol a la memoria” A cuarenta años del mundial ‘78 - 2018.
-                    </p>
+                    </p> */}
                     <p>
                         Estudia Fotografía Documental en FILO - UBA y Cine Documental Comunitario en la ENERC - 2020. Realiza Clínica de obra con Andrés Labaké, María Lightowler y Federico de La Puente. Actualmente asiste a los talleres de Diego Perrotta y “Explorar la trama” de Emilia Demichelis. En 2021 y 2022 accede a becas de residencia, tales como “La Rural”, en Tucumán, “Interzona”, en la ciudad de La Plata y “SirveVerse” de La Paternal Espacio Proyecto en Entre Ríos. 
                     </p>
