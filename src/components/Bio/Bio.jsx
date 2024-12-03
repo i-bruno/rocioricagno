@@ -60,6 +60,18 @@ const Bio = () => {
                     </h4>
                         <ul>
                             <li>
+                                2024 <i>Fronteras permeables</i>. Museo de Bellas Artes, Municipalidad de Río Cuarto, Córdoba
+                            </li>
+                            <li>
+                                2024 <i>Blanda</i>. Muestra de libros textiles. Punta Alta, Municipalidad de Coronel Rosales, Provincia de Buenos Aires.
+                            </li>
+                            <li>
+                                2024 <i>Mas allá del paisaje</i>. Alianza Francesa, Buenos Aires
+                            </li>
+                            <li>
+                                2024 <i>Acopio de raíces. Proyecto naturaleza, textiles y paisaje</i>. Museo de la mujer, Buenos Aires
+                            </li>
+                            <li>
                                 2024 Piel de Río en el Foro Abierto 2024, Universidad Nacional del Litoral, Santa Fe.
                             </li>
                             <li>
