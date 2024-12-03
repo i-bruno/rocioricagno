@@ -5,63 +5,63 @@ import { PhotoProvider, PhotoView } from 'react-photo-view'
 const Obras = (props) => {
 
   let proyectoarana = [
-    "./img/obras/01_proyectoArana/proyectoArana.jpg"
+    "./img/obras/01_proyectoArana/proyectoArana.webp"
   ]
 
   let silencio = [
-    "./img/obras/02_hacerHablarAlSilencio/lancha2.jpg",
-    "./img/obras/02_hacerHablarAlSilencio/viaje.jpg",
-    "./img/obras/02_hacerHablarAlSilencio/viaje1.jpg",
-    "./img/obras/02_hacerHablarAlSilencio/montajeSotanoIsometrica.jpg",
-    "./img/obras/02_hacerHablarAlSilencio/montajeSotanoIzquierda.jpg",
-    "./img/obras/02_hacerHablarAlSilencio/montajeSotanoTransparenciaVentana.jpg"
+    "./img/obras/02_hacerHablarAlSilencio/lancha2.webp",
+    "./img/obras/02_hacerHablarAlSilencio/viaje.webp",
+    "./img/obras/02_hacerHablarAlSilencio/viaje1.webp",
+    "./img/obras/02_hacerHablarAlSilencio/montajeSotanoIsometrica.webp",
+    "./img/obras/02_hacerHablarAlSilencio/montajeSotanoIzquierda.webp",
+    "./img/obras/02_hacerHablarAlSilencio/montajeSotanoTransparenciaVentana.webp"
   ]
 
   let capasabrigo = [
-    "./img/obras/03_capasAbrigo/ejercicio1.jpg",
-    "./img/obras/03_capasAbrigo/ejercicio1Detalle.jpg",
-    "./img/obras/03_capasAbrigo/ejercicio1Detalle1.jpg",
-    "./img/obras/03_capasAbrigo/ejercicio2.jpg",
-    "./img/obras/03_capasAbrigo/ejercicio3.jpg",
-    "./img/obras/03_capasAbrigo/ejercicio4.jpg"
+    "./img/obras/03_capasAbrigo/ejercicio1.webp",
+    "./img/obras/03_capasAbrigo/ejercicio1Detalle.webp",
+    "./img/obras/03_capasAbrigo/ejercicio1Detalle1.webp",
+    "./img/obras/03_capasAbrigo/ejercicio2.webp",
+    "./img/obras/03_capasAbrigo/ejercicio3.webp",
+    "./img/obras/03_capasAbrigo/ejercicio4.webp"
   ]
 
   let pielderio = [
-    "./img/obras/04_pielDeRio/pielDeRio1.jpg",
-    "./img/obras/04_pielDeRio/pielDeRio2.jpg"
+    "./img/obras/04_pielDeRio/pielDeRio1.webp",
+    "./img/obras/04_pielDeRio/pielDeRio2.webp"
   ]
 
   let sintesis = [
-    "./img/obras/05_sintesisMemoria/sinTitulo.jpg"
+    "./img/obras/05_sintesisMemoria/sinTitulo.webp"
   ]
 
   let memoria = [
-    "./img/obras/06_memoriaCartografica/memoriaCartografica.jpg"
+    "./img/obras/06_memoriaCartografica/memoriaCartografica.webp"
   ]
 
   let inestable = [
     "./img/obras/07_inestable/inestable.jpg",
-    "./img/obras/07_inestable/inestableDetalle2.jpg",
-    "./img/obras/07_inestable/inestableDetalle3.jpg",
-    "./img/obras/07_inestable/inestableDetalle4.jpg"
+    "./img/obras/07_inestable/inestableDetalle2.webp",
+    "./img/obras/07_inestable/inestableDetalle3.webp",
+    "./img/obras/07_inestable/inestableDetalle4.webp"
   ]
 
   let devastacion = [
-    "./img/obras/08_devastacion/devastacionCompleta.jpg",
-    "./img/obras/08_devastacion/devastacionDetalle1.jpg",
-    "./img/obras/08_devastacion/devastacionDetalle2.jpg",
-    "./img/obras/08_devastacion/devastacionDetalle3.jpg"
+    "./img/obras/08_devastacion/devastacionCompleta.webp",
+    "./img/obras/08_devastacion/devastacionDetalle1.webp",
+    "./img/obras/08_devastacion/devastacionDetalle2.webp",
+    "./img/obras/08_devastacion/devastacionDetalle3.webp"
   ]
 
   let devenirterritorio = [
-    "./img/obras/09_devenirTerritorio/devenirTerritorio.jpg",
-    "./img/obras/09_devenirTerritorio/devenirTerritorio1.jpg"
+    "./img/obras/09_devenirTerritorio/devenirTerritorio.webp",
+    "./img/obras/09_devenirTerritorio/devenirTerritorio1.webp"
   ]
 
   let seniorita = [
-    "./img/obras/10_seniorita/Seniorita1.jpg",
-    "./img/obras/10_seniorita/senioritaDetalle1.jpg",
-    "./img/obras/10_seniorita/senioritaDetalle2.jpg"
+    "./img/obras/10_seniorita/Seniorita1.webp",
+    "./img/obras/10_seniorita/senioritaDetalle1.webp",
+    "./img/obras/10_seniorita/senioritaDetalle2.webp"
   ]
 
   switch (props.obra) {
