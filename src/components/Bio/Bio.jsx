@@ -35,8 +35,11 @@ const Bio = () => {
                             Muestras colectivas
                         </h4>
                         <ul>
+                            <li>2025 Terra Incognita - Casona de los Olivera, Buenos Aires</li>
+                            <li>2025 Pequeñas Colecciones - Casona de los Olivera, Buenos Aires</li>
+                            <li>2025 Espacio Kuyen - SACH, Se agrandó Chacarita, Buenos Aires</li>
                             <li>
-                                2024 <i>Blanda</i>. Muestra de libros textiles. Punta Alta, Municipalidad de Coronel Rosales, Provincia de Buenos Aires.
+                                2024-2025 <i>Blanda</i>. Muestra de libros textiles. Punta Alta, Municipalidad de Coronel Rosales, Provincia de Buenos Aires.
                             </li>
                             <li>
                                 2024 <i>Acopio de raíces. Proyecto naturaleza, textiles y paisaje</i>. Museo de la mujer, Buenos Aires
