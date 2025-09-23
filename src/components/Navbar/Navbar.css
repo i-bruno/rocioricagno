@@ -1,5 +1,11 @@
 .linkStyle{
     text-decoration: none;
+    
+}
+
+.btnTraduccion{
+    background: none;
+    border: none;
     color: #000000a6;
 }
 

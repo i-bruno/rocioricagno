@@ -115,12 +115,12 @@ export const Navbar = () => {
                             </ul>
                             <div class="d-flex flex-column">
                                 <div className="contenedorLink">
-                                    <button onClick={() => changeLanguage("es")} className="linkStyle">
+                                    <button onClick={() => changeLanguage("es")} className="btnTraduccion">
                                         {t("lang_es")}
                                     </button>
                                 </div>
                                 <div className="contenedorLink">
-                                    <button onClick={() => changeLanguage("en")} className="linkStyle">
+                                    <button onClick={() => changeLanguage("en")} className="btnTraduccion">
                                         {t("lang_en")}
                                     </button>
                                 </div>
