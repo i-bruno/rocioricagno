@@ -2,5 +2,7 @@
     "inicio": "Home",
     "bio": "About",
     "obras": "Artworks",
-    "contacto": "Contact"
+    "contacto": "Contact",
+    "lang_es": "Spanish",
+    "lang_en": "English"
 }
