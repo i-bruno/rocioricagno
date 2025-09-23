@@ -2,11 +2,13 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import "./Navbar.css"
 import { useState } from 'react';
+import { useTranslation } from "react-i18next";
 
 
 export const Navbar = () => {
 
     const [isMenuOpen, setMenuOpen] = useState(false);
+    const { t, i18n } = useTranslation();
 
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
@@ -14,6 +16,9 @@ export const Navbar = () => {
 
     const closeMenu = () => {
         setMenuOpen(false);
+    };
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
     };
 
     return (
@@ -41,14 +46,14 @@ export const Navbar = () => {
                         <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                                 <li className="nav-item" onClick={closeMenu}>
-                                    <NavLink to={`/`} className="nav-link" aria-current="page">Inicio</NavLink>
+                                    <NavLink to={`/`} className="nav-link" aria-current="page">{t("inicio")}</NavLink>
                                 </li>
                                 <li className="nav-item" onClick={closeMenu}>
-                                    <NavLink to={`/bio`} className="nav-link">Bio</NavLink>
+                                    <NavLink to={`/bio`} className="nav-link">{t("bio")}</NavLink>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href='/'>
-                                        Obras
+                                        {t("obras")}
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li onClick={closeMenu}>
@@ -105,27 +110,25 @@ export const Navbar = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item" onClick={closeMenu}>
-                                    <NavLink to={`/contacto`} className="nav-link">Contacto</NavLink>
+                                    <NavLink to={`/contacto`} className="nav-link">{t("contacto")}</NavLink>
                                 </li>
                             </ul>
                             <div class="d-flex flex-column">
                                 <div className="contenedorLink">
-                                    <a href="/" class="linkStyle">
-                                        Español
-                                    </a>
+                                    <button onClick={() => changeLanguage("es")} className="linkStyle">
+                                        {t("lang_es")}
+                                    </button>
                                 </div>
                                 <div className="contenedorLink">
-                                    <a href="/" class="linkStyle">
-                                        English
-                                    </a>
+                                    <button onClick={() => changeLanguage("en")} className="linkStyle">
+                                        {t("lang_en")}
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </nav>
             </header>
-
-
         </>
     );
 };
