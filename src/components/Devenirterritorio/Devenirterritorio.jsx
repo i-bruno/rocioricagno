@@ -2,6 +2,8 @@ import React from 'react'
 import Obras from '../Obras/Obras'
 
 const Devenirterritorio = () => {
+    const { t } = useTranslation();
+
     return (
         <div>
             <section className="galeria">
@@ -9,10 +11,10 @@ const Devenirterritorio = () => {
             </section>
             <section class="texto">
                 <h6 className='titulo'>
-                    Devenir territorio
+                    {t("devenir.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    Bordado sobre bolsas de infusiones
+                    {t("devenir.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2020
@@ -21,9 +23,9 @@ const Devenirterritorio = () => {
                     77 x 58 cm
                 </p>
                 <div className='textoObra'>
-                <p>
-                    Interpreto al monte como un lienzo y al río como conductor de recuerdos. Ambos guardan una multiplicidad de historias donde convergen sonidos, aromas, palabras, lo cotidiano y lo ritual. El cuerpo no está exento de la memoria, por el contrario, cada espacio recorrido se graba en nosotrxs sin darnos cuenta, y ahí se queda. El cuerpo es una matriz de vivencias,  un collage de espacios y sentidos. En esa mezcla de experiencias, transformaciones y vínculos es cuando el ser deviene en territorio.
-                </p>
+                    <p>
+                        {t("devenir.p1")}
+                    </p>
                 </div>
             </section>
         </div>

@@ -2,6 +2,8 @@ import React from 'react'
 import Obras from '../Obras/Obras'
 
 const Inestable = () => {
+    const { t } = useTranslation();
+
     return (
         <div>
             <section className="galeria">
@@ -9,10 +11,10 @@ const Inestable = () => {
             </section>
             <section class="texto">
                 <h6 className='titulo'>
-                    Inestable
+                    {t("inestable.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    Bordado sobre bolsas de infusiones con tres cúmulos de sus restos
+                    {t("inestable.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2020
@@ -22,10 +24,10 @@ const Inestable = () => {
                 </p>
                 <div className='textoObra'>
                     <p>
-                        Inestable es la identidad hecha territorio, objeto y espacio. Es una pieza bordada sobre un material frágil y a la vez resistente que evoca recorridos propios y colectivos en el tiempo. A sus pies aparece el resto, el detrito de lo pasado.
+                        {t("inestable.p1")}
                     </p>
                     <p>
-                        Es parte de una investigación que vengo desarrollando sobre el territorio y las comunidades de la 3ra. sección del delta de san fernando. Una región de gran biodiversidad, importancia histórica, política y económica para las provincias del litoral y Bs. As.
+                        {t("inestable.p2")}
                     </p>
                 </div>
             </section>

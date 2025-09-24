@@ -4,7 +4,7 @@ import "./Seniorita.css"
 
 
 const Seniorita = () => {
-
+    const { t } = useTranslation();
 
     return (
 
@@ -15,10 +15,10 @@ const Seniorita = () => {
 
             <section class="texto">
                 <h6 className='titulo'>
-                    Señorita
+                    {t("seniorita.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    Contrato de maestras de 1923 bordado a mano sobre guardapolvo blanco con escarapela
+                    {t("seniorita.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2020
@@ -28,10 +28,10 @@ const Seniorita = () => {
                 </p>
                 <div className='textoObra'>
                     <p>
-                        La obra denuncia el uso y apropiación del cuerpo de la mujer maestra en un tiempo histórico determinado pero que aún hoy pesa en las espaldas de las trabajadoras de la educación. La naturalización del término señorita y las consecuencias de ese estereotipo. El texto del bordado es una aproximación a partir de información que ronda en el imaginario cultural de la sociedad y el ámbito educativo.
+                        {t("seniorita.p1")}
                     </p>
                     <p>
-                        Durante el proceso de construcción nacional se comenzó a poner a las mujeres delante del pizarrón. Se indicó que eran más idóneas para ocupar ese rol ya que la maternidad y el cuidado de los niños era en ellas algo innato, por amor, por vocación, de aquí el sueldo bajo y la poca valoración de su trabajo. Se esperaba que extendieran los cuidados y la enseñanza de valores de manera formal. Todavía resuena el dicho “como una segunda madre".
+                        {t("seniorita.p2")}
                     </p>
                 </div>
             </section>
