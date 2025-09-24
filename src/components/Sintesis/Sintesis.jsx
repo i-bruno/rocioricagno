@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Sintesis.css"
 import Obras from '../Obras/Obras'
+import { useTranslation } from "react-i18next";
 
 
 const Sintesis = () => {

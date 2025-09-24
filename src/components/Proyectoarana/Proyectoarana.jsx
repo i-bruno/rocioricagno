@@ -1,6 +1,7 @@
 import React from 'react'
 import Obras from '../Obras/Obras'
 import "./Proyectoarana.css"
+import { useTranslation } from "react-i18next";
 
 const Proyectoarana = () => {
     const { t } = useTranslation();

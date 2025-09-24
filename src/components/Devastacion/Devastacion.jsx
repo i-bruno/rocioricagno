@@ -1,5 +1,6 @@
 import React from 'react'
 import Obras from '../Obras/Obras'
+import { useTranslation } from "react-i18next";
 
 const Devastacion = () => {
     const { t } = useTranslation();

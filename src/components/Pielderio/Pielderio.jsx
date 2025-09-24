@@ -1,6 +1,7 @@
 import React from 'react'
 import Obras from '../Obras/Obras'
 import "./Pielderio.css"
+import { useTranslation } from "react-i18next";
 
 const Pielderio = () => {
     const { t } = useTranslation();
