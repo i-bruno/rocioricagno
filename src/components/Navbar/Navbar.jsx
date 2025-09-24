@@ -46,19 +46,19 @@ export const Navbar = () => {
                         <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarSupportedContent">
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                                 <li className="nav-item" onClick={closeMenu}>
-                                    <NavLink to={`/`} className="nav-link" aria-current="page">{t("inicio")}</NavLink>
+                                    <NavLink to={`/`} className="nav-link" aria-current="page">{t("nav.inicio")}</NavLink>
                                 </li>
                                 <li className="nav-item" onClick={closeMenu}>
-                                    <NavLink to={`/bio`} className="nav-link">{t("bio")}</NavLink>
+                                    <NavLink to={`/bio`} className="nav-link">{t("nav.bio")}</NavLink>
                                 </li>
                                 <li className="nav-item dropdown">
                                     <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href='/'>
-                                        {t("obras")}
+                                        {t("nav.obras")}
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/proyectoarana`} className="dropdown-item w-auto">
-                                                Proyecto Arana
+                                                {t("arte.arana.titulo")}
                                             </NavLink>
                                         </li>
                                         {/* <li onClick={closeMenu}>
@@ -69,48 +69,48 @@ export const Navbar = () => {
                                         </li> */}
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/capasabrigo`} className="dropdown-item w-auto">
-                                                Capas de abrigo
+                                                {t("arte.abrigo.titulo")}
                                             </NavLink>
                                         </li>
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/pielderio`} className="dropdown-item w-auto">
-                                                Piel de río
+                                                {t("arte.piel.titulo")}
                                             </NavLink>
                                         </li>
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/sintesis`} className="dropdown-item w-auto">
-                                                Sintesis de la memoria
+                                                {t("arte.sintesis.titulo")}
                                             </NavLink>
                                         </li>
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/memoria`} className="dropdown-item w-auto">
-                                                Memoria cartográfica
+                                                {t("arte.memoria.titulo")}
                                             </NavLink>
                                         </li>
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/inestable`} className="dropdown-item w-auto">
-                                                Inestable
+                                                {t("arte.inestable.titulo")}
                                             </NavLink>
                                         </li>
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/devastacion`} className="dropdown-item w-auto">
-                                                Devastación
+                                                {t("arte.devastacion.titulo")}
                                             </NavLink>
                                         </li>
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/devenirterritorio`} className="dropdown-item w-auto">
-                                                Devenir territorio
+                                                {t("arte.devenir.titulo")}
                                             </NavLink>
                                         </li>
                                         <li onClick={closeMenu}>
                                             <NavLink to={`/seniorita`} className="dropdown-item w-auto">
-                                                Señorita
+                                                {t("arte.seniorita.titulo")}
                                             </NavLink>
                                         </li>
                                     </ul>
                                 </li>
                                 <li className="nav-item" onClick={closeMenu}>
-                                    <NavLink to={`/contacto`} className="nav-link">{t("contacto")}</NavLink>
+                                    <NavLink to={`/contacto`} className="nav-link">{t("nav.contacto")}</NavLink>
                                 </li>
                             </ul>
                             <div class="d-flex flex-column">
