@@ -1,8 +1,111 @@
 {
-    "inicio": "Inicio",
-    "bio": "Bio",
-    "obras": "Obras",
-    "contacto": "Contacto",
+    "nav": {
+        "inicio": "Inicio",
+        "bio": "Bio",
+        "obras": "Obras",
+        "contacto": "Contacto"
+    },
+    "bio": {
+        "p1":"Rocío Ricagno nace en el año 1990 en San Fernando, Buenos Aires. Crece en Tigre y se reconoce tanto parte de su ciudad como de sus islas. Es artista visual y docente. Sus prácticas artísticas se vinculan con el delta del río Paraná, donde utiliza diversos lenguajes y acciones para generar nuevas miradas en torno al territorio.",
+        "p2":"Recibe en 2015 el título de Profesora de Artes Visuales otorgado por la Escuela de Artes Visuales Antonio Berni. Estudia Fotografía Documental en FILO - UBA y Cine Documental Comunitario en la ENERC - 2020. Hoy en día cursa el ciclo de licenciatura en Artes de la UNSAM. Realiza Clínica de obra con Andrés Labaké, María Lightowler y Federico de La Puente. Entre el 2020 y el 2023 asiste a los talleres de Emilia Demichelis y Diego Perrotta.",
+        "p3":"En el 2021 y 2022 le otorgan becas de residencia en Tucumán, Entre Ríos y Buenos Aires. Participó en variados salones, muestras colectivas y realizó muestras individuales en Neuquén, Córdoba, Santa Fe y Buenos Aires. Es seleccionada para cursar el programa anual de estudios de creación y circulación de obra en Proyecto Imaginario LATAM y le fue otorgada la Beca Creación del FNA en el año 2021 y 2022.",
+        "p4":"Recibe 1ra Mención en el 4to salón de la mujer: Género y Derechos del Centro Argentino de Arte Textil y Mención en el 5to Premio MacSur 2021. En el 2023 el Palacio Belgrano Otamendi de la Ciudad de San Fernando adquirió una de sus obras para que forme parte de su muestra permanente en el museo.",
+        "p5":"Actualmente se encuentra explorando las características de los materiales y sus poéticas. A su vez, ampliando las fronteras de expresión incorporando publicaciones gráficas, medios audiovisuales y lo instalativo."
+    },
+    "dist": {
+        "dist1":"2021 Beca Residencia Interzona",
+        "dist2":"2021 Beca Creación - Fondo Nacional de las Artes",
+        "dist3":"2022 Beca Creación para finalización de proyecto - Fondo Nacional de las Artes",
+        "dist4":"2022 Beca Clínica de obra - La Tribu y el Territorio",
+        "dist5":"2022 Beca Residencia La Rural Raco, Tucumán",
+        "dist6":"2022 Beca de Residencia Sirve Verse - ARTLAB",
+        "dist7":"2022 Primera Mención 4to Salón de la Mujer: Género y Derechos - Centro Argentino de Arte Textil",
+        "dist8":"2022 Mención 5to Premio MACSur - Museo de Arte Contemporáneo del Sur",
+        "dist9":"22022 Premio al reconocimiento por el aporte a la cultura sanfernandina"
+    },
+    "colectivas":{
+        "colec1":"2009 Centro cultural la tertulia - Don Torcuato, Tigre",
+        "colec2":"2016 Museo de la ciudad de San Fernando, Buenos Aires",
+        "colec3":"2020 Distrito Once - Circuito de arte, Buenos Aires",
+        "colec4":"2020/2021 VI y VII Encuentro de Arte Textil - Umbral Espacio de Arte, Buenos Aires",
+        "colec5":"2021 Salón Primavera - San Fernando",
+        "colec6":"2022 Quinta el Ombú - San Fernando, Buenos Aires",
+        "colec7":"2022 4to Salón de la Mujer: Género y Derechos - Centro Argentino de Arte Textil",
+        "colec8":"2022 5to Premio MACSur - Museo de Arte Contemporáneo del Sur",
+        "colec9":"2023 Amuleto Galería Muestra “Seres”, Vicente Lopez",
+        "colec10":"2023 Museo Otamendi, San Fernando - Adquisición de obra en muestra permanente",
+        "colec11":"2023 Noche de los Museos, Colegio N°6 Manuel Belgrano",
+        "colec12":"2024 Acopio de raíces. Proyecto naturaleza, textiles y paisaje. Museo de la mujer, Buenos Aires",
+        "colec13":"2024-2025 Blanda. Muestra de libros textiles. Punta Alta, Municipalidad de Coronel Rosales, Provincia de Buenos Aires.",
+        "colec14":"2025 Espacio Kuyen - SACH, Se agrandó Chacarita, Buenos Aires",
+        "colec15":"2025 Pequeñas Colecciones - Casona de los Olivera, Buenos Aires",
+        "colec16":"2025 Terra Incognita - Casona de los Olivera, Buenos Aires"
+    },
+    "individuales":{
+        "indi1":"2023 Museo Casa Sarmiento, Tigre, Buenos Aires.",
+        "indi2":"2024 Museo de Arte Contemporáneo Conrad Meier, Villa La Angostura",
+        "indi3":"2024 Piel de Río en el Foro Abierto 2024, Universidad Nacional del Litoral, Santa Fe.",
+        "indi4":"2024 Mas allá del paisaje. Alianza Francesa, Buenos Aires",
+        "indi5":"2024 Fronteras permeables. Museo de Bellas Artes, Municipalidad de Río Cuarto, Córdoba"
+    },
+    "arte":{
+        "arana":{
+            "titulo": "Proyecto Arana (Arana Project)",
+            "sub": "Canal: Artificial conduit through which water is conducted to distribute it, for irrigation or other uses.",
+            "p1":"The “Gobernador Arana” canal is a civil engineering work built to connect the Paraná Miní and Barca Grande rivers, located in the third section of the San Fernando Delta Islands, in the Province of Buenos Aires. It has a length of 8 kilometers long, 7 meters wide and 1m deep.",
+            "p2":"A few years ago, I rooted my artistic practice in this territory where I am from and where my family history was forged. After an arduous research process, carried out through different means, I obtained the information that about 50 homes remain standing, but that at the same time only no more than 15 are inhabited. The majority are in a state of abandonment or used for sporadic or vacation periods.",
+            "p3":"The canal communicates with the nearest city through a single public transport that has a single daily travel schedule with about three hours of travel.",
+            "p4":"The project takes up the main concept of channel to create a poetic-visual conduit that unites time/territory/community, through the use of photography and interviews, to obtain records and answers about the current social, political and economic context of the community and how the past is intertwined observed from the present. What unites you to that territory? How do they live and resist climate change, the decline of the Paraná River and clandestine fires? What relationship do they have with the first sections of the delta? What is its link with tourism and the increase in population in private neighborhoods and consequently the increase in river traffic?",
+            "p5":"I am interested in bringing to light the stories that make up the families that lived or live in those spaces. Highlighting the gaze of the protagonists, a disposable camera will be used as a method, temporarily giving a photographic device to each group, so that beyond the interviews and talks, they themselves are the ones who share their way of seeing, selecting what to show and what to tell.",
+            "p6":"The specificity of the method consists of providing one disposable camera per household. Each camera has a roll of around 35 photos in analog quality. A person trained in web development will be hired simultaneously to create a page with its own domain, where what has been collected will be uploaded, thus sharing all the material with a broader community, and allowing interaction between the protagonists and visitors. With audio files, films and photographs, this repository will serve not only as a source for my research and artistic production but also to socialize the ways of inhabiting an island territory commonly thought of for tourism, real estate and agricultural livestock businesses.",
+            "p7":"The works seek to represent identity made into territory, object and space. A poetic construction between the characteristics of the tea bags, the Paraná delta and its skin. A conjunction of color, humidity, fragility and at the same time resistance. The skin that is the border of his body, extends and becomes a river/work."
+        },
+        "abrigo":{
+            "titulo":"Capas de abrigo (Layers of Shelter)",
+            "sub":"Fragments of peeling paintings on paper extracted from a house in the Paraná Delta",
+            "p1":"It is about observing and collecting remains of time and moments that the island's homes keep in the paintings on their walls.",
+            "p2":"By reinstalling these pieces in spaces foreign to their existence, the fragment functions as a symbol of the whole. It condenses the history of a fruitful time, in which this territory was a prolific source of fruits, wood and wicker.",
+            "p3":"Navigating the waters, I try to reconstruct the stories that inhabited those constructions, bringing to light again the stories that constituted the families that inhabited those spaces and proposing, from the language of painting, to reassemble past and current moments."
+        },
+        "piel":{
+            "titulo":"Piel de río (River skin)",
+            "sub":"Body, woodland and cloth of tea bags Digital photography paper edition 100% cotton",
+            "p1":"Photographic collaboration Jimeno Aelen",
+            "p2":"Piel de Río is part of an autobiographical investigation set in a portion of the Third Section of the San Fernando Delta Islands. A region of great biodiversity, historically, politically, and economically important for the coastal provinces and Buenos Aires. Over time, due to unfavorable economic and political decisions, families were forced to relocate and concentrate in nearby cities. The artist is drawn to this idea of abandonment and seeks to make the territory and its memory visible through the visual arts. Each piece is constructed from infusions used and given by different people; therefore, they are charged with encounters and remnants of time. This is interesting since the artist understands the land/body as a poetic and political stage, an affective framework where experiences and stories converge. Her body becomes wrapped in these stories and transmutes."
+        },
+        "sintesis":{
+            "titulo":"Síntesis de la memoria (Synthesis of memory)",
+            "sub":"Tea bags on MDF",
+            "p1":"Síntesis de la memoria is a work that emphasizes space, color, and the sensorial. It represents the facade of the house where my great-grandmother, my grandmother, and my mother lived, located in the third section of islands in the Paraná Delta, in the province of Buenos Aires. Color and texture are active elements in the work, used as both language and code. Through variations in tone on the support and thanks to the transparency of the material, an optical effect is achieved, focusing the light on the architectural drawing, while the imitative color of the river dominates the work. During the working process, the tea bags transmute to form part of a geometric pattern, carefully placed in juxtaposition, seeking to sustain the form, its colors, and transparencies. Geometry, conceived from an affective perspective, functions as an instrument to exercise my memories and aesthetically construct my memory."
+        },
+        "memoria":{
+            "titulo":"Memoria cartográfica (Cartographic memory)",
+            "sub":"Embroidery on colored tea bags with dry materials",
+            "p1":"Memoria cartográfica represents a portion of the third section of the San Fernando Delta, Buenos Aires. A silent land, filled with signs of an active and prolific past. The dot indicates the homes of my great-grandmother, grandmother, and mother. They produced wicker, wood, and fruit trees. To represent this territory, I use the remains of infusions, creating a poetic dialogue between the material and the region. Fragile, moist, and resilient at the same time."
+        },
+        "inestable":{
+            "titulo":"Inestable (Unstable)",
+            "sub":"Embroidery on tea bags with three clusters of their remains",
+            "p1":"Inestable is identity, transformed into territory, object, and space. It is a piece embroidered on a fragile yet resilient material that evokes personal and collective journeys through time. At its feet appears the remainder, the detritus of the past.",
+            "p2":"This is part of a research project I've been conducting on the territory and communities of the 3rd section of the San Fernando Delta. A region of great biodiversity and historical, political, and economic importance for the coastal provinces and Buenos Aires."
+        },
+        "devastacion":{
+            "titulo":"Devastación (Devastation)",
+            "sub":"Burnt tea bags on paper",
+            "p1":"Segmented organic bodies burn vulnerably, trapped by the abrasive action of fire. The work focuses on the expansion of cities over rivers, the rise of monoculture farming, and the plundering of the ecosystem under the promises of progress. The wetlands of the Paraná River Delta region are being threatened by the actions of current economies, producing devastating changes for the ecosystem and its inhabitants. Everyday life, rituals, and techniques are forcibly transformed along with the ecosystem, causing the loss of being/doing. Keeping these tasks and everyday scenes of the space alive is a political act that defends not only the ecosystem with its biodiversity, but also the communities and their identity in relation to the territory."
+        },
+        "devenir":{
+            "titulo":"Devenir territorio (Become territory)",
+            "sub":"Embroidery on tea bags",
+            "p1":"I interpret the woodlandain as a canvas and the river as a conduit of memories. Both hold a multiplicity of stories where sounds, scents, words, the everyday, and the ritual converge. The body is not exempt from memory; on the contrary, every space we travel is engraved in us without us realizing it, and there it remains. The body is a matrix of experiences, a collage of spaces and meanings. In this mixture of experiences, transformations, and connections, the being becomes a territory."
+        },
+        "seniorita":{
+            "titulo":"Señorita (Missy)",
+            "sub":"1923 teachers' contract, hand-embroidered on a white smock with a rosette",
+            "p1":"The work denounces the use and appropriation of the female teacher's body in a specific historical period, but which still weighs heavily on the shoulders of female education workers today. The naturalization of the term 'young lady' and the consequences of this stereotype. The embroidered text is an approximation based on information circulating in the cultural imagination of society and the educational field.",
+            "p2":"During the nation-building process, women began to be put in front of the board. It was suggested that they were more suitable for this role since motherhood and childcare were innate to them, out of love, out of vocation, hence the low wages and low appreciation for their work. They were expected to extend caregiving and teach values in a formal manner. The saying 'like a second mother' still resonates."
+        }
+    },
     "lang_es": "Español",
     "lang_en": "Inglés"
 }
