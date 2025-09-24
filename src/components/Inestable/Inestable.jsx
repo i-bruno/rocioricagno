@@ -12,10 +12,10 @@ const Inestable = () => {
             </section>
             <section class="texto">
                 <h6 className='titulo'>
-                    {t("inestable.titulo")}
+                    {t("arte.inestable.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    {t("inestable.sub")}
+                    {t("arte.inestable.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2020
@@ -25,10 +25,10 @@ const Inestable = () => {
                 </p>
                 <div className='textoObra'>
                     <p>
-                        {t("inestable.p1")}
+                        {t("arte.inestable.p1")}
                     </p>
                     <p>
-                        {t("inestable.p2")}
+                        {t("arte.inestable.p2")}
                     </p>
                 </div>
             </section>

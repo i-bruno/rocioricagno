@@ -16,7 +16,7 @@ const Seniorita = () => {
 
             <section class="texto">
                 <h6 className='titulo'>
-                    {t("seniorita.titulo")}
+                    {t("arte.seniorita.titulo")}
                 </h6>
                 <p className='textoDetalle'>
                     {t("seniorita.sub")}
@@ -29,10 +29,10 @@ const Seniorita = () => {
                 </p>
                 <div className='textoObra'>
                     <p>
-                        {t("seniorita.p1")}
+                        {t("arte.seniorita.p1")}
                     </p>
                     <p>
-                        {t("seniorita.p2")}
+                        {t("arte.seniorita.p2")}
                     </p>
                 </div>
             </section>

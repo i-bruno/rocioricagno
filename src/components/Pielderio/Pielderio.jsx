@@ -14,20 +14,20 @@ const Pielderio = () => {
 
             <section class="texto">
                 <h6 className='titulo'>
-                    {t("piel.titulo")}
+                    {t("arte.piel.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    {t("piel.sub")}
+                    {t("arte.piel.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2023
                 </p>
                 <p className='textoDetalle'>
-                    {t("piel.p1")}
+                    {t("arte.piel.p1")}
                 </p>
                 <div className='textoObra'>
                     <p>
-                        {t("piel.p2")}
+                        {t("arte.piel.p2")}
                     </p>
                 </div>
             </section>

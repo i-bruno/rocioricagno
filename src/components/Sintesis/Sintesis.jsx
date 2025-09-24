@@ -15,10 +15,10 @@ const Sintesis = () => {
 
             <section class="texto">
                 <h6 className='titulo'>
-                    {t("sintesis.titulo")}
+                    {t("arte.sintesis.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    {t("sintesis.sub")}
+                    {t("arte.sintesis.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2023
@@ -28,7 +28,7 @@ const Sintesis = () => {
                 </p>
                 <div className='textoObra'>
                     <p>
-                        {t("sintesis.p1")}
+                        {t("arte.sintesis.p1")}
                     </p>
                 </div>
             </section>

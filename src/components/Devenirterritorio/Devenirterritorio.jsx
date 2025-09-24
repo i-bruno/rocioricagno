@@ -12,10 +12,10 @@ const Devenirterritorio = () => {
             </section>
             <section class="texto">
                 <h6 className='titulo'>
-                    {t("devenir.titulo")}
+                    {t("arte.devenir.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    {t("devenir.sub")}
+                    {t("arte.devenir.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2020
@@ -25,7 +25,7 @@ const Devenirterritorio = () => {
                 </p>
                 <div className='textoObra'>
                     <p>
-                        {t("devenir.p1")}
+                        {t("arte.devenir.p1")}
                     </p>
                 </div>
             </section>

@@ -12,10 +12,10 @@ const Capasabrigo = () => {
             </section>
             <section class="texto">
                 <h6 className='titulo'>
-                    {t("abrigo.titulo")}
+                    {t("arte.abrigo.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    {t("abrigo.sub")}
+                    {t("arte.abrigo.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2021
@@ -25,13 +25,13 @@ const Capasabrigo = () => {
                 </p>
                 <div className='textoObra'>
                     <p>
-                        {t("abrigo.p1")}
+                        {t("arte.abrigo.p1")}
                     </p>
                     <p>
-                        {t("abrigo.p2")}
+                        {t("arte.abrigo.p2")}
                     </p>
                     <p>
-                        {t("abrigo.p3")}
+                        {t("arte.abrigo.p3")}
                     </p>
                 </div>
             </section>

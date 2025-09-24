@@ -14,10 +14,10 @@ const Memoria = () => {
 
             <section class="texto">
                 <h6 className='titulo'>
-                    {t("memoria.titulo")}
+                    {t("arte.memoria.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    {t("memoria.sub")}
+                    {t("arte.memoria.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2020
@@ -27,7 +27,7 @@ const Memoria = () => {
                 </p>
                 <div className='textoObra'>
                     <p>
-                        {t("memoria.p1")}
+                        {t("arte.memoria.p1")}
                     </p>
                 </div>
             </section>
