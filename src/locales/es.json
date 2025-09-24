@@ -13,6 +13,7 @@
         "p5":"Actualmente se encuentra explorando las características de los materiales y sus poéticas. A su vez, ampliando las fronteras de expresión incorporando publicaciones gráficas, medios audiovisuales y lo instalativo."
     },
     "dist": {
+        "titulo":"Distinciones y becas",
         "dist1":"2021 Beca Residencia Interzona",
         "dist2":"2021 Beca Creación - Fondo Nacional de las Artes",
         "dist3":"2022 Beca Creación para finalización de proyecto - Fondo Nacional de las Artes",
@@ -21,9 +22,10 @@
         "dist6":"2022 Beca de Residencia Sirve Verse - ARTLAB",
         "dist7":"2022 Primera Mención 4to Salón de la Mujer: Género y Derechos - Centro Argentino de Arte Textil",
         "dist8":"2022 Mención 5to Premio MACSur - Museo de Arte Contemporáneo del Sur",
-        "dist9":"22022 Premio al reconocimiento por el aporte a la cultura sanfernandina"
+        "dist9":"2022 Premio al reconocimiento por el aporte a la cultura sanfernandina"
     },
     "colectivas":{
+        "titulo":"Muestras colectivas",
         "colec1":"2009 Centro cultural la tertulia - Don Torcuato, Tigre",
         "colec2":"2016 Museo de la ciudad de San Fernando, Buenos Aires",
         "colec3":"2020 Distrito Once - Circuito de arte, Buenos Aires",
@@ -42,6 +44,7 @@
         "colec16":"2025 Terra Incognita - Casona de los Olivera, Buenos Aires"
     },
     "individuales":{
+        "titulo": "Muestras individuales",
         "indi1":"2023 Museo Casa Sarmiento, Tigre, Buenos Aires.",
         "indi2":"2024 Museo de Arte Contemporáneo Conrad Meier, Villa La Angostura",
         "indi3":"2024 Piel de Río en el Foro Abierto 2024, Universidad Nacional del Litoral, Santa Fe.",

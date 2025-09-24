@@ -1,7 +1,10 @@
 import React from 'react'
 import "./Bio.css"
+import { useTranslation } from "react-i18next";
 
 const Bio = () => {
+    const { t } = useTranslation();
+
     return (
         <>
             <div className="gridBio">
@@ -10,132 +13,138 @@ const Bio = () => {
                         <img src="./img/web/perfil1.webp" alt="foto de perfil" className='imgPerfil' />
                         <div className="bioText">
                             <p>
-                                Rocío Ricagno nace en el año 1990 en San Fernando, Buenos Aires. Crece en Tigre y se reconoce tanto parte de su ciudad como de sus islas. Es artista visual y docente. Sus prácticas artísticas se vinculan con el delta del río Paraná, donde utiliza diversos lenguajes y acciones para generar nuevas miradas en torno al territorio.
+                                {t("bio.p1")}
                             </p>
                             <p className='noDisplay'>
                                 En 2016 se traslada a la Capital Federal y cursa la especialización en Educación Sexual Integral en el Inst. del Profesorado Dr. Joaquín V. González. Desde su rol docente colabora en la muestra itinerante “No Fue un Juego” en el Museo del Holocausto, Bs. As. 2018/2019. Lleva a cabo junto con el equipo educativo del Ex CCD,TyE “Club Atlético” la muestra “Gol a la memoria” A cuarenta años del mundial ‘78 - 2018.
                             </p>
                             <p>
-                                Recibe en 2015 el título de Profesora de Artes Visuales otorgado por la Escuela de Artes Visuales Antonio Berni. Estudia Fotografía Documental en FILO - UBA y Cine Documental Comunitario en la ENERC - 2020. Hoy en día cursa el ciclo de licenciatura en Artes de la UNSAM. Realiza Clínica de obra con Andrés Labaké, María Lightowler y Federico de La Puente. Entre el 2020 y el 2023 asiste a los talleres de Emilia Demichelis y Diego Perrotta. 
+                                {t("bio.p2")}
                             </p>
                             <div className='bioText2'>
                                 <p>
-                                    En el 2021 y 2022 le otorgan becas de residencia en Tucumán, Entre Ríos y Buenos Aires. Participó en variados salones, muestras colectivas y realizó muestras individuales en Neuquén, Córdoba, Santa Fe y Buenos Aires. Es seleccionada para cursar el programa anual de estudios de creación y circulación de obra en Proyecto Imaginario LATAM y le fue otorgada la Beca Creación del FNA en el año 2021 y 2022. 
+                                    {t("bio.p3")}
                                 </p>
                                 <p>
-                                    Recibe 1ra Mención en el 4to salón de la mujer: Género y Derechos del Centro Argentino de Arte Textil y Mención en el 5to Premio MacSur 2021. En el 2023 el Palacio Belgrano Otamendi de la Ciudad de San Fernando adquirió una de sus obras para que forme parte de su muestra permanente en el museo.
+                                    {t("bio.p4")}
                                 </p>
                                 <p>
-                                    Actualmente se encuentra explorando las características de los materiales y sus poéticas. A su vez, ampliando las fronteras de expresión incorporando publicaciones gráficas, medios audiovisuales y lo instalativo.
+                                    {t("bio.p5")}
                                 </p>
                             </div>
                         </div>
                     </div>
                 </section>
                 <section className="expos">
-                <div className="colectivas">
+                    <div className="colectivas">
                         <h4>
-                            Muestras colectivas
+                            {t("colectivas.titulo")}
                         </h4>
                         <ul>
-                            <li>2025 Terra Incognita - Casona de los Olivera, Buenos Aires</li>
-                            <li>2025 Pequeñas Colecciones - Casona de los Olivera, Buenos Aires</li>
-                            <li>2025 Espacio Kuyen - SACH, Se agrandó Chacarita, Buenos Aires</li>
                             <li>
-                                2024-2025 <i>Blanda</i>. Muestra de libros textiles. Punta Alta, Municipalidad de Coronel Rosales, Provincia de Buenos Aires.
+                                {t("colectivas.colec16")}
                             </li>
                             <li>
-                                2024 <i>Acopio de raíces. Proyecto naturaleza, textiles y paisaje</i>. Museo de la mujer, Buenos Aires
+                                {t("colectivas.colec15")}
                             </li>
                             <li>
-                                2023 Noche de los Museos, Colegio N°6 Manuel Belgrano
+                                {t("colectivas.colec14")}
                             </li>
                             <li>
-                                2023 Amuleto Galería Muestra “Seres”, Vicente Lopez
+                                {t("colectivas.colec13")}
                             </li>
                             <li>
-                                2023 Museo Otamendi, San Fernando - Adquisición de obra en muestra permanente
+                                {t("colectivas.colec12")}
                             </li>
                             <li>
-                                2022 5to Premio MACSur - Museo de Arte Contemporáneo del Sur
+                                {t("colectivas.colec11")}
                             </li>
                             <li>
-                                2022 4to Salón de la Mujer: Género y Derechos - Centro Argentino de Arte Textil
+                                {t("colectivas.colec10")}
                             </li>
                             <li>
-                                2022 Quinta el Ombú - San Fernando, Buenos Aires
+                                {t("colectivas.colec9")}
                             </li>
                             <li>
-                                2021 Salón Primavera - San Fernando
+                                {t("colectivas.colec8")}
                             </li>
                             <li>
-                                2020/2021 VI y VII Encuentro de Arte Textil - Umbral Espacio de Arte, Buenos Aires
+                                {t("colectivas.colec7")}
                             </li>
                             <li>
-                                2020 Distrito Once - Circuito de arte, Buenos Aires
+                                {t("colectivas.colec6")}
                             </li>
                             <li>
-                                2016 Museo de la ciudad de San Fernando, Buenos Aires
+                                {t("colectivas.colec5")}
                             </li>
                             <li>
-                                2009 Centro cultural la tertulia - Don Torcuato, Tigre
+                                {t("colectivas.colec4")}
+                            </li>
+                            <li>
+                                {t("colectivas.colec3")}
+                            </li>
+                            <li>
+                                {t("colectivas.colec2")}
+                            </li>
+                            <li>
+                                {t("colectivas.colec1")}
                             </li>
                         </ul>
                     </div>
                     <div className='distinciones'>
                         <h4>
-                            Distinciones y becas
+                            {t("dist.titulo")}
                         </h4>
                         <ul>
                             <li>
-                                2022 Premio al reconocimiento por el aporte a la cultura sanfernandina
+                                {t("dist.dist9")}
                             </li>
                             <li>
-                                2022 Mención 5to Premio MACSur - Museo de Arte Contemporáneo del Sur
+                                {t("dist.dist8")}
                             </li>
                             <li>
-                                2022 Primera Mención 4to Salón de la Mujer: Género y Derechos - Centro Argentino de Arte Textil
+                                {t("dist.dist7")}
                             </li>
                             <li>
-                                2022 Beca de Residencia Sirve Verse - ARTLAB
+                                {t("dist.dist6")}
                             </li>
                             <li>
-                                2022 Beca Residencia La Rural Raco, Tucumán
+                                {t("dist.dist5")}
                             </li>
                             <li>
-                                2022 Beca Clínica de obra - La Tribu y el Territorio
+                                {t("dist.dist4")}
                             </li>
                             <li>
-                                2022 Beca Creación para finalización de proyecto - Fondo Nacional de las Artes
+                                {t("dist.dist3")}
                             </li>
                             <li>
-                                2021 Beca Creación - Fondo Nacional de las Artes
+                                {t("dist.dist2")}
                             </li>
                             <li>
-                                2021 Beca Residencia Interzona
+                                {t("dist.dist1")}
                             </li>
                         </ul>
                     </div>
-                    
+
                     <div className="individuales">
                         <h4>
-                            Muestras individuales
+                            {t("individuales.titulo")}
                         </h4>
                         <ul>
                             <li>
-                                2024 <i>Fronteras permeables</i>. Museo de Bellas Artes, Municipalidad de Río Cuarto, Córdoba
+                                {t("individuales.indi5")}
                             </li>
                             <li>
-                                2024 <i>Mas allá del paisaje</i>. Alianza Francesa, Buenos Aires
+                                {t("individuales.indi4")}
                             </li>
                             <li>
-                                2024 Piel de Río en el Foro Abierto 2024, Universidad Nacional del Litoral, Santa Fe.
+                                {t("individuales.indi3")}
                             </li>
                             <li>
-                                2024 Museo de Arte Contemporáneo Conrad Meier, Villa La Angostura
+                                {t("individuales.indi2")}
                             </li>
                             <li>
-                                2023 Museo Casa Sarmiento, Tigre, Buenos Aires.
+                                {t("individuales.indi1")}
                             </li>
                         </ul>
                     </div>

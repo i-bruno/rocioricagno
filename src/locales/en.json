@@ -13,6 +13,7 @@
         "p5":"She is currently exploring the characteristics of materials and their poetics, while also expanding the boundaries of expression by incorporating graphic publications, audiovisual media, and installations."
     },
     "dist": {
+        "titulo":"Awards and grants",
         "dist1":"2021 Interzone Residency Scholarship",
         "dist2":"2021 Creation Scholarship - Fondo Nacional de las Artes",
         "dist3":"2022 Creation Scholarship for project completion - Fondo Nacional de las Artes",
@@ -24,6 +25,7 @@
         "dist9":"2022 Recognition Award for Contributions to San Fernando’s Culture"
     },
     "colectivas":{
+        "titulo":"Group exhibitions",
         "colec1":"2009 La Tertulia Cultural Center - Don Torcuato, Tigre",
         "colec2":"2016 San Fernando City Museum",
         "colec3":"2020 District Eleven - Art Circuit",
@@ -42,6 +44,7 @@
         "colec16":"2025 Terra Incognita - Casona de los Olivera, Buenos Aires"
     },
     "individuales":{
+        "titulo": "Solo exhibitions",
         "indi1":"2023 Museo Casa Sarmiento, Tigre, Buenos Aires.",
         "indi2":"2024 Museo de Arte Contemporáneo Conrad Meier, Villa La Angostura",
         "indi3":"2024 Piel de Río en el Foro Abierto 2024, Universidad Nacional del Litoral, Santa Fe.",
