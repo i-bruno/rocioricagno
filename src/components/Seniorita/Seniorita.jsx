@@ -19,7 +19,7 @@ const Seniorita = () => {
                     {t("arte.seniorita.titulo")}
                 </h6>
                 <p className='textoDetalle'>
-                    {t("seniorita.sub")}
+                    {t("arte.seniorita.sub")}
                 </p>
                 <p className='textoDetalle'>
                     2020
