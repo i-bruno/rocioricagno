@@ -97,6 +97,9 @@ const Bio = () => {
                         </h4>
                         <ul>
                             <li>
+                                {t("dist.dist10")}
+                            </li>
+                            <li>
                                 {t("dist.dist9")}
                             </li>
                             <li>
@@ -131,6 +134,9 @@ const Bio = () => {
                             {t("individuales.titulo")}
                         </h4>
                         <ul>
+                            <li>
+                                {t("individuales.indi6")}
+                            </li>
                             <li>
                                 {t("individuales.indi5")}
                             </li>
