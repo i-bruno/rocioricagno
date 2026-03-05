@@ -67,7 +67,7 @@ const Proyectoarana = () => {
                 <div className='botones'>
                     <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button className="botonArana">Proyecto Arana</button></a>
 
-                    <a href="./img/web/arana_fotolibro.pdf" target='_blank' rel="noopener noreferrer"><button className="botonArana">Arana libro</button></a>
+                    <a href="./pdf/fotolibro.pdf" target='_blank' rel="noopener noreferrer"><button className="botonArana">Arana libro</button></a>
                 </div>
             </section>
         </div>
