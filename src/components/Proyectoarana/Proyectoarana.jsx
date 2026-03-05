@@ -8,17 +8,17 @@ const Proyectoarana = () => {
 
     return (
 
-        <div class="gridArana">
+        <div class="gridArana min-content">
             <section className="Foto d-flex flex-column align-items-center">
                 < Obras obra='proyectoarana' />
             </section>
             <section className="Texto1">
                 <h6 className='titulo'>
-                    {t("arte.arana.titulo")}
+                    {t("arte.arana.titulo")} - {t("arte.arana.sub1")}
                 </h6>
 
                 <p>
-                    {t("arte.arana.sub")}
+                    {t("arte.arana.sub2")}
                 </p>
 
                 <p>
@@ -36,7 +36,7 @@ const Proyectoarana = () => {
                     {t("arte.arana.p4")}
                 </p>
             </section>
-            <section className="Texto2 d-flex flex-column align-items-center">
+            <section className="Texto2 d-flex flex-column align-items-start">
 
                 <p>
                     {t("arte.arana.p5")}
@@ -49,6 +49,21 @@ const Proyectoarana = () => {
                 <p>
                     {t("arte.arana.p7")}
                 </p>
+                <p>
+                    {t("arte.arana.p8")}
+                </p>
+                <p>
+                    {t("arte.arana.p9")}
+                </p>
+                <p>
+                    {t("arte.arana.p10")}
+                </p>
+                <p>
+                    {t("arte.arana.p11")}
+                </p>
+
+            </section>
+            <section className='Botonera d-flex flex-column align-items-center min-content'>
                 <div className='botones'>
                     <a href="http://www.proyectoarana.com.ar" target='_blank' rel="noopener noreferrer"><button className="botonArana">Proyecto Arana</button></a>
 
