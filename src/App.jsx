@@ -14,7 +14,6 @@ import Devastacion from './components/Devastacion/Devastacion';
 import Devenirterritorio from './components/Devenirterritorio/Devenirterritorio';
 import Seniorita from './components/Seniorita/Seniorita';
 import Error from './components/Error/Error';
-import Fotolibro from './components/Fotolibro/Fotolibro';
 
 import Bio from './components/Bio/Bio';
 import Contacto from './components/Contacto/Contacto';
@@ -43,9 +42,7 @@ function App() {
           <Route path="/devastacion" element={<Devastacion />} />
           <Route path="/devenirterritorio" element={<Devenirterritorio />} />
           <Route path="/seniorita" element={<Seniorita />} />
-
           <Route path="/contacto" element={<Contacto />} />
-          <Route path="/fotolibro" element={<Fotolibro />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
