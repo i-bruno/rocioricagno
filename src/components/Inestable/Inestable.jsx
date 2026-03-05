@@ -30,6 +30,9 @@ const Inestable = () => {
                     <p>
                         {t("arte.inestable.p2")}
                     </p>
+                    <p>
+                        {t("arte.inestable.p3")}
+                    </p>
                 </div>
             </section>
         </div>

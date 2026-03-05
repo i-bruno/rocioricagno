@@ -30,9 +30,6 @@ const Capasabrigo = () => {
                     <p>
                         {t("arte.abrigo.p2")}
                     </p>
-                    <p>
-                        {t("arte.abrigo.p3")}
-                    </p>
                 </div>
             </section>
         </div>

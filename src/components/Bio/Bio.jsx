@@ -28,9 +28,6 @@ const Bio = () => {
                                 <p>
                                     {t("bio.p4")}
                                 </p>
-                                <p>
-                                    {t("bio.p5")}
-                                </p>
                             </div>
                         </div>
                     </div>
